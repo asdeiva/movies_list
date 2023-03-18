@@ -1,9 +1,10 @@
 import React from 'react';
+import './MovieList.css'
 
 function MovieList({ movies }) {
   return (
-    <table>
-      <thead>
+    <table className='movie-list'>
+      <thead >
         <tr>
           <th>Title</th>
           <th>Genre</th>
